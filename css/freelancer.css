@@ -515,9 +515,11 @@ fieldset[disabled] .btn-success.active {
 /*1.LOGO*/
 
 a.navbar-brand img {
-    width: 200px;
+/*    width: 200px;*/
+/*
     position: relative;
     bottom: 25px;
+*/
 }
 
 /*MEDIA QUERIES*/
@@ -526,9 +528,11 @@ a.navbar-brand img {
   
     
     a.navbar-brand img {
+/*
     width: 120px;
     position: relative;
     bottom: 15px;
+*/
 }
     
 }
