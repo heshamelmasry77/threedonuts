@@ -72,7 +72,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: rgba(0, 0, 0, 0) url("img/bg.jpg") repeat scroll 0 0 / cover ;
+  background: rgba(0, 0, 0, 0) url(/img/bg.jpg) repeat scroll 0 0 / cover ;
   color: white;
 }
 header .container {
@@ -246,7 +246,8 @@ section.success {
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px;
+    margin: 0;
+      padding: 0;
   }
 }
 .floating-label-form-group {
