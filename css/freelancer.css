@@ -72,7 +72,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: rgba(0, 0, 0, 0) url("img/bg.jpg") repeat scroll 0 0 / cover ;
   color: white;
 }
 header .container {
