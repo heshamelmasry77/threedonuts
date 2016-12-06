@@ -3,6 +3,9 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+/*1.LOGO*/
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -129,7 +132,7 @@ header .intro-text .skills {
   color: black;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #db5799;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -503,3 +506,26 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
+
+/*1.LOGO*/
+
+a.navbar-brand img {
+    width: 150px;
+    position: relative;
+    bottom: 25px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 801px) {
+  
+    
+    a.navbar-brand img {
+    width: 120px;
+    position: relative;
+    bottom: 15px;
+}
+    
+}
+
