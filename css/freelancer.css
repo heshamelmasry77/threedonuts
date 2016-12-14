@@ -72,7 +72,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: rgba(0, 0, 0, 0) url(/img/bg.jpg) repeat scroll 0 0 / cover ;
+  background: #93C0DE;
   color: white;
 }
 header .container {
@@ -515,11 +515,11 @@ fieldset[disabled] .btn-success.active {
 /*1.LOGO*/
 
 a.navbar-brand img {
-/*    width: 200px;*/
-/*
+
+
     position: relative;
     bottom: 25px;
-*/
+
 }
 
 /*MEDIA QUERIES*/
@@ -528,11 +528,11 @@ a.navbar-brand img {
   
     
     a.navbar-brand img {
-/*
+
     width: 120px;
     position: relative;
     bottom: 15px;
-*/
+
 }
     
 }
