@@ -21,7 +21,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #2A7FB8;
   outline: none;
 }
 h1,
@@ -57,7 +57,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #2A7FB8;
   color: white;
 }
 hr.star-primary {
@@ -191,7 +191,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #2A7FB8;
   color: white;
 }
 @media (max-width: 767px) {
@@ -297,7 +297,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #2A7FB8;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -331,7 +331,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #2A7FB8;
   background: white;
   border: solid 2px white;
 }
@@ -379,8 +379,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #2A7FB8;
+  border-color: #2A7FB8;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -416,7 +416,7 @@ fieldset[disabled] .btn-success.active {
   border-color: #db5799;
 }
 .btn-success .badge {
-  color: #18BC9C;
+  color: #2A7FB8;
   background-color: white;
 }
 .btn-social {
