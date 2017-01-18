@@ -57,7 +57,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #2A7FB8;
+  background-color: #f4589c;
   color: white;
 }
 hr.star-primary {
@@ -72,7 +72,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #93C0DE;
+  background: #d9bf72;
   color: white;
 }
 header .container {
@@ -82,6 +82,8 @@ header .container {
 header img {
   display: block;
   margin: 0 auto 20px;
+  -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 header .intro-text .name {
   display: block;
@@ -97,7 +99,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
+    padding-top: 110px;
     padding-bottom: 100px;
   }
   header .intro-text .name {
@@ -108,7 +110,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: rgba(255, 255, 255, 0.64);
+  background: #c9c7c8;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -130,11 +132,12 @@ header .intro-text .skills {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: black;
+  color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #db5799;
+  color: #f4589c;
   outline: none;
+  cursor: pointer;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -165,7 +168,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 10px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -203,6 +206,14 @@ section.success {
     padding-top: 75px;
   }
 }
+/*portfolio*/
+#portfolio hr.star-primary:after {
+
+
+
+    background-color: #d9bf72;
+    color: #fff;
+}
 #portfolio .portfolio-item {
   margin: 0px 0px 15px;
   right: 0;
@@ -212,6 +223,9 @@ section.success {
   position: relative;
   max-width: 450px;
   margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link:hover {
+  cursor: pointer;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
   background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
@@ -870,7 +884,14 @@ a.navbar-brand img {
 //  04 - Services
 /////////////////////////////////////////////////////////////////////*/
 
+#services {
+background-color: rgba(201, 199, 200, 0.23);
+}
 
+#services hr.star-primary:after {
+    background-color: #f4589c;
+    color: #fff;
+}
 
 .services {
     max-width: 293px;
@@ -886,7 +907,7 @@ a.navbar-brand img {
 .service-wrap {
     width: 100%;
     height: 100%;
-    border: 1px solid #B5B5B5;
+    border: 5px solid #B5B5B5;
     text-align: center;
     display: block;
     border-radius: 50%;
@@ -896,7 +917,7 @@ a.navbar-brand img {
     transition: all 0.3s ease;
 }
 .service-wrap:hover i {
-    color: #e66f69;
+    color: #d9bf72;
 }
 .service-wrap p {
     padding: 0px 40px;
